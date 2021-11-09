@@ -7,13 +7,13 @@ If there is no common prefix, return an empty string "".
 
 Example 1:
 
-> Input: strs = ["flower","flow","flight"]   
-> Output: "fl" 
+> Input: strs = ["flower","flow","flight"]  
+> Output: "fl"
 
 Example 2:
 
-> Input: strs = ["dog","racecar","car"]   
-> Output: ""   
+> Input: strs = ["dog","racecar","car"]  
+> Output: ""  
 > Explanation: There is no common prefix among the input strings.
 
 Constraints:
@@ -32,5 +32,5 @@ Constraints:
 
 ### JavaScript
 
-> Runtime: `68` ms, faster than `97.45%` of JavaScript online submissions for Third Maximum Number.
-> Memory Usage: `41` MB, less than `19.15%` of JavaScript online submissions for Third Maximum Number.
+> Runtime: `68` ms, faster than `97.45%` of JavaScript online submissions for Longest Common Prefix.
+> Memory Usage: `41` MB, less than `19.15%` of JavaScript online submissions for Longest Common Prefix.
