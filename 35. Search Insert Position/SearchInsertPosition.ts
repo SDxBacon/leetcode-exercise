@@ -1,0 +1,17 @@
+function searchInsert(nums: number[], target: number): number {
+  let low = 0;
+  let high = nums.length - 1;
+
+  while (low < high) { // break if low === high
+    const mid = Math.floor((low + high) / 2);
+    if (nums[mid] > target) {
+      high = mid - 1;
+    } else if (nums[mid] < target) {
+      low = mid + 1;
+    } else {
+      return mid; // target find
+    }
+  }
+
+  return target > nums[low] ? low + 1: low;
+}
