@@ -14,5 +14,5 @@ Return an array answer of size n where answer[i] is the column that the ball fal
 
 ### TypeScript
 
-> Runtime: 106 ms, faster than 77.70% of TypeScript online submissions for Where Will the Ball Fall.
+> Runtime: 106 ms, faster than 77.70% of TypeScript online submissions for Where Will the Ball Fall.  
 > Memory Usage: 45.3 MB, less than 53.96% of TypeScript online submissions for Where Will the Ball Fall.
