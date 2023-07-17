@@ -1,0 +1,25 @@
+{
+  "name": "leetcode-exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:SDxBacon/leetcode-exercise.git",
+  "author": "SDxBacon <z141134553@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@types/jest": "^29.5.3",
+    "babel-jest": "^29.6.1",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  }
+}
